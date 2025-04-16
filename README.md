@@ -1,10 +1,10 @@
 # Nginx stable
 
-[![release](https://img.shields.io/github/release/devilbox/docker-nginx-stable.svg)](https://github.com/devilbox/docker-nginx-stable/releases)
-[![Github](https://img.shields.io/badge/github-docker--nginx--stable-red.svg)](https://github.com/devilbox/docker-nginx-stable)
-[![lint](https://github.com/devilbox/docker-nginx-stable/workflows/lint/badge.svg)](https://github.com/devilbox/docker-nginx-stable/actions?query=workflow%3Alint)
-[![build](https://github.com/devilbox/docker-nginx-stable/workflows/build/badge.svg)](https://github.com/devilbox/docker-nginx-stable/actions?query=workflow%3Abuild)
-[![nightly](https://github.com/devilbox/docker-nginx-stable/workflows/nightly/badge.svg)](https://github.com/devilbox/docker-nginx-stable/actions?query=workflow%3Anightly)
+[![release](https://img.shields.io/github/release/devilbox-community/docker-nginx-stable.svg)](https://github.com/devilbox-community/docker-nginx-stable/releases)
+[![Github](https://img.shields.io/badge/github-docker--nginx--stable-red.svg)](https://github.com/devilbox-community/docker-nginx-stable)
+[![lint](https://github.com/devilbox-community/docker-nginx-stable/workflows/lint/badge.svg)](https://github.com/devilbox-community/docker-nginx-stable/actions?query=workflow%3Alint)
+[![build](https://github.com/devilbox-community/docker-nginx-stable/workflows/build/badge.svg)](https://github.com/devilbox-community/docker-nginx-stable/actions?query=workflow%3Abuild)
+[![nightly](https://github.com/devilbox-community/docker-nginx-stable/workflows/nightly/badge.svg)](https://github.com/devilbox-community/docker-nginx-stable/actions?query=workflow%3Anightly)
 [![License](https://img.shields.io/badge/license-MIT-%233DA639.svg)](https://opensource.org/licenses/MIT)
 
 [![Discord](https://img.shields.io/discord/1051541389256704091?color=8c9eff&label=Discord&logo=discord)](https://discord.gg/2wP3V6kBj4)
@@ -13,7 +13,7 @@
 
 **Available Architectures:**  `amd64`, `arm64`, `386`, `arm/v7`, `arm/v6`
 
-[![](https://img.shields.io/docker/pulls/devilbox/nginx-stable.svg)](https://hub.docker.com/r/devilbox/nginx-stable)
+[![](https://img.shields.io/docker/pulls/devilboxcommunity/nginx-stable.svg)](https://hub.docker.com/r/devilboxcommunity/nginx-stable)
 
 This image is based on the official **[Nginx](https://hub.docker.com/_/nginx)** Docker image and extends it with the ability to have **virtual hosts created automatically**, as well as **adding SSL certificates** when creating new directories. For that to work, it integrates two tools that will take care about the whole process: **[watcherd](https://github.com/devilbox/watcherd)** and **[vhost-gen](https://github.com/devilbox/vhost-gen)**.
 
@@ -28,11 +28,11 @@ For convenience the entrypoint script during `docker run` provides a pretty dece
 | Invalid backend string | Backend Suggestion | Invalid Alias | Verified |
 
 
-> ##### 🐱 GitHub: [devilbox/docker-nginx-stable](https://github.com/devilbox/docker-nginx-stable)
+> ##### 🐱 GitHub: [devilbox-community/docker-nginx-stable](https://github.com/devilbox-community/docker-nginx-stable)
 
 | Web Server Project  | Reference Implementation |
 |:-------------------:|:------------------------:|
-| <a title="Docker Nginx" href="https://github.com/devilbox/docker-nginx-stable" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/05/png/banner_256_trans.png" /></a> | <a title="Devilbox" href="https://github.com/cytopia/devilbox" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a> |
+| <a title="Docker Nginx" href="https://github.com/devilbox-community/docker-nginx-stable" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/05/png/banner_256_trans.png" /></a> | <a title="Devilbox" href="https://github.com/cytopia/devilbox" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a> |
 | Streamlined Webserver images | The [Devilbox](https://github.com/cytopia/devilbox) |
 
 **[Apache 2.2](https://github.com/devilbox/docker-apache-2.2) | [Apache 2.4](https://github.com/devilbox/docker-apache-2.4) | Nginx stable | [Nginx mainline](https://github.com/devilbox/docker-nginx-mainline)**
@@ -42,23 +42,23 @@ For convenience the entrypoint script during `docker run` provides a pretty dece
 
 ## 🐋 Available Docker tags
 
-[![](https://img.shields.io/docker/pulls/devilbox/nginx-stable.svg)](https://hub.docker.com/r/devilbox/nginx-stable)
+[![](https://img.shields.io/docker/pulls/devilboxcommunity/nginx-stable.svg)](https://hub.docker.com/r/devilboxcommunity/nginx-stable)
 
 [`latest`][tag_latest] [`debian`][tag_debian] [`alpine`][tag_alpine]
 ```bash
-docker pull devilbox/nginx-stable
+docker pull devilboxcommunity/nginx-stable
 ```
 
-[tag_latest]: https://github.com/devilbox/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.latest
-[tag_debian]: https://github.com/devilbox/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.debian
-[tag_alpine]: https://github.com/devilbox/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.alpine
+[tag_latest]: https://github.com/devilbox-community/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.latest
+[tag_debian]: https://github.com/devilbox-community/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.debian
+[tag_alpine]: https://github.com/devilbox-community/docker-nginx-stable/blob/master/Dockerfiles/Dockerfile.alpine
 
 
 #### Rolling releases
 
 The following Docker image tags are rolling releases and are built and updated every night.
 
-[![nightly](https://github.com/devilbox/docker-nginx-stable/workflows/nightly/badge.svg)](https://github.com/devilbox/docker-nginx-stable/actions?query=workflow%3Anightly)
+[![nightly](https://github.com/devilbox-community/docker-nginx-stable/workflows/nightly/badge.svg)](https://github.com/devilbox-community/docker-nginx-stable/actions?query=workflow%3Anightly)
 
 | Docker Tag                       | Git Ref      |  Available Architectures                      |
 |----------------------------------|--------------|-----------------------------------------------|
@@ -71,7 +71,7 @@ The following Docker image tags are rolling releases and are built and updated e
 
 The following Docker image tags are built once and can be used for reproducible builds. Its version never changes so you will have to update tags in your pipelines from time to time in order to stay up-to-date.
 
-[![build](https://github.com/devilbox/docker-nginx-stable/workflows/build/badge.svg)](https://github.com/devilbox/docker-nginx-stable/actions?query=workflow%3Abuild)
+[![build](https://github.com/devilbox-community/docker-nginx-stable/workflows/build/badge.svg)](https://github.com/devilbox-community/docker-nginx-stable/actions?query=workflow%3Abuild)
 
 | Docker Tag                       | Git Ref      |  Available Architectures                      |
 |----------------------------------|--------------|-----------------------------------------------|
@@ -320,38 +320,38 @@ Show some love for the following sister projects.
   <th>🐋 DockerHub</th>
  </tr>
  <tr>
-  <td><a title="Devilbox" href="https://github.com/cytopia/devilbox" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a></td>
-  <td><a href="https://github.com/cytopia/devilbox"><code>Devilbox</code></a></td>
+  <td><a title="Devilbox" href="https://github.com/devilbox-community/devilbox" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a></td>
+  <td><a href="https://github.com/devilbox-community/devilboxx"><code>Devilbox</code></a></td>
   <td></td>
  </tr>
  <tr>
-  <td><a title="Docker PHP-FMP" href="https://github.com/devilbox/docker-php-fpm" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/02/png/banner_256_trans.png" /></a></td>
-  <td><a href="https://github.com/devilbox/docker-php-fpm"><code>docker-php-fpm</code></a></td>
-  <td><a href="https://hub.docker.com/r/devilbox/php-fpm"><code>devilbox/php-fpm</code></a></td>
+  <td><a title="Docker PHP-FPM" href="https://github.com/devilbox-community/docker-php-fpm" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/02/png/banner_256_trans.png" /></a></td>
+  <td><a href="https://github.com/devilbox-community/docker-php-fpm"><code>docker-php-fpm</code></a></td>
+  <td><a href="https://hub.docker.com/r/devilboxcommunity/php-fpm"><code>devilboxcommunity/php-fpm</code></a></td>
  </tr>
  <tr>
   <td><a title="Docker PHP-FMP-Community" href="https://github.com/devilbox/docker-php-fpm-community" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/03/png/banner_256_trans.png" /></a></td>
-  <td><a href="https://github.com/devilbox/docker-php-fpm-community"><code>docker-php-fpm-community</code></a></td>
-  <td><a href="https://hub.docker.com/r/devilbox/php-fpm-community"><code>devilbox/php-fpm-community</code></a></td>
+  <td><a href="https://github.com/devilbox-community/docker-php-fpm-community"><code>docker-php-fpm-community</code></a></td>
+  <td><a href="https://hub.docker.com/r/devilboxcommunity/php-fpm-community"><code>devilboxcommunity/php-fpm-community</code></a></td>
  </tr>
  <tr>
-  <td><a title="Docker MySQL" href="https://github.com/devilbox/docker-mysql" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/04/png/banner_256_trans.png" /></a></td>
-  <td><a href="https://github.com/devilbox/docker-mysql"><code>docker-mysql</code></a></td>
-  <td><a href="https://hub.docker.com/r/devilbox/mysql"><code>devilbox/mysql</code></a></td>
+  <td><a title="Docker MySQL" href="https://github.com/devilbox-community/docker-mysql" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/04/png/banner_256_trans.png" /></a></td>
+  <td><a href="https://github.com/devilbox-community/docker-mysql"><code>docker-mysql</code></a></td>
+  <td><a href="https://hub.docker.com/r/devilboxcommunity/mysql"><code>devilboxcommunity/mysql</code></a></td>
  </tr>
  <tr>
   <td><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/05/png/banner_256_trans.png" /></td>
   <td>
-   <a href="https://github.com/devilbox/docker-apache-2.2"><code>docker-apache-2.2</code></a><br/>
-   <a href="https://github.com/devilbox/docker-apache-2.4"><code>docker-apache-2.4</code></a><br/>
-   <a href="https://github.com/devilbox/docker-nginx-stable"><code>docker-nginx-stable</code></a><br/>
-   <a href="https://github.com/devilbox/docker-nginx-mainline"><code>docker-nginx-mainline</code></a>
+   <a href="https://github.com//devilbox-community/docker-apache-2.2"><code>docker-apache-2.2</code></a><br/>
+   <a href="https://github.com//devilbox-community/docker-apache-2.4"><code>docker-apache-2.4</code></a><br/>
+   <a href="https://github.com//devilbox-community/docker-nginx-stable"><code>docker-nginx-stable</code></a><br/>
+   <a href="https://github.com//devilbox-community/docker-nginx-mainline"><code>docker-nginx-mainline</code></a>
   </td>
   <td>
-   <a href="https://hub.docker.com/r/devilbox/apache-2.2"><code>devilbox/apache-2.2</code></a><br/>
-   <a href="https://hub.docker.com/r/devilbox/apache-2.4"><code>devilbox/apache-2.4</code></a><br/>
-   <a href="https://hub.docker.com/r/devilbox/nginx-stable"><code>devilbox/nginx-stable</code></a><br/>
-   <a href="https://hub.docker.com/r/devilbox/nginx-mainline"><code>devilbox/nginx-mainline</code></a>
+   <a href="https://hub.docker.com/r/devilboxcommunity/apache-2.2"><code>devilboxcommunity/apache-2.2</code></a><br/>
+   <a href="https://hub.docker.com/r/devilboxcommunity/apache-2.4"><code>devilboxcommunity/apache-2.4</code></a><br/>
+   <a href="https://hub.docker.com/r/devilboxcommunity/nginx-stable"><code>devilboxcommunity/nginx-stable</code></a><br/>
+   <a href="https://hub.docker.com/r/devilboxcommunity/nginx-mainline"><code>devilboxcommunity/nginx-mainline</code></a>
   </td>
  <tr>
   <td><a title="Bind DNS Server" href="https://github.com/cytopia/docker-bind" ><img width="256px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/06/png/banner_256_trans.png" /></a></td>
@@ -405,29 +405,29 @@ In case you seek help, go and visit the community pages.
 
 ## 🧘 Maintainer
 
-**[@cytopia](https://github.com/cytopia)**
+**[@nntoan](https://github.com/nntoan)**
 
 I try to keep up with literally **over 100 projects** besides a full-time job.
 If my work is making your life easier, consider contributing. 🖤
 
-* [GitHub Sponsorship](https://github.com/sponsors/cytopia)
-* [Patreon](https://www.patreon.com/devilbox)
-* [Open Collective](https://opencollective.com/devilbox)
+* [GitHub Sponsorship](https://github.com/sponsors/nntoan)
+* [Patreon](https://www.patreon.com/nntoan)
+* [Open Collective](https://opencollective.com/nntoan)
 
 **Findme:**
-**🐱** [cytopia](https://github.com/cytopia) / [devilbox](https://github.com/devilbox) |
-**🐋** [cytopia](https://hub.docker.com/r/cytopia/) / [devilbox](https://hub.docker.com/r/devilbox/) |
-**🐦** [everythingcli](https://twitter.com/everythingcli) / [devilbox](https://twitter.com/devilbox) |
-**📖** [everythingcli.org](http://www.everythingcli.org/)
+**🐱** [nntoan](https://github.com/nntoan) / [devilboxcommunity](https://github.com/devilbox-community) |
+**🐋** [cytopia](https://hub.docker.com/r/cytopia/) / [devilbox](https://hub.docker.com/r/devilboxcommunity/) |
 
-**Contrib:** PyPI: [cytopia](https://pypi.org/user/cytopia/) **·**
+**Contrib:**
+PyPI: [cytopia](https://pypi.org/user/cytopia/) **·**
 Terraform: [cytopia](https://registry.terraform.io/namespaces/cytopia) **·**
 Ansible: [cytopia](https://galaxy.ansible.com/cytopia)
-
 
 
 ## 🗎 License
 
 **[MIT License](LICENSE)**
 
-Copyright (c) 2016 [cytopia](https://github.com/cytopia)
+Copyright (c) 2016-2023 [cytopia](https://github.com/cytopia)
+
+Copyright (c) 2024-present [nntoan](https://github.com/nntoan)
