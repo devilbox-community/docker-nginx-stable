@@ -15,7 +15,7 @@
 
 [![](https://img.shields.io/docker/pulls/devilboxcommunity/nginx-stable.svg)](https://hub.docker.com/r/devilboxcommunity/nginx-stable)
 
-This image is based on the official **[Nginx](https://hub.docker.com/_/nginx)** Docker image and extends it with the ability to have **virtual hosts created automatically**, as well as **adding SSL certificates** when creating new directories. For that to work, it integrates two tools that will take care about the whole process: **[watcherd](https://github.com/devilbox/watcherd)** and **[vhost-gen](https://github.com/devilbox/vhost-gen)**.
+This image is based on the official **[Nginx](https://hub.docker.com/_/nginx)** Docker image and extends it with the ability to have **virtual hosts created automatically**, as well as **adding SSL certificates** when creating new directories. For that to work, it integrates two tools that will take care about the whole process: **[watcherd](https://github.com/devilbox-community/watcherd)** and **[vhost-gen](https://github.com/devilbox-community/vhost-gen)**.
 
 From a users perspective, you mount your local project directory into the container under `/shared/httpd`. Any directory then created in your local project directory wil spawn a new virtual host by the same name. Each virtual host optionally supports a generic or custom backend configuration: **static files**, **PHP-FPM**, **reverse proxy** (with or without **websocket** support)..
 
@@ -109,7 +109,7 @@ Below is a brief overview about most outstanding features, but I would still adv
 * Virtual host SSL certificates are signed by an internal Certificate Authority (or one you provide to the image). That makes it possible to set the CA to trusted and all generated vhosts will automatically have trusted SSL.
 
 #### Customization per virtual host
-* Each virtual host can individually be fully customized via [`vhost-gen`](https://github.com/devilbox/vhost-gen) templates.
+* Each virtual host can individually be fully customized via [`vhost-gen`](https://github.com/devilbox-community/vhost-gen) templates.
 
 #### Local file system permission sync
 * File system permission/ownership of files/dirs inside the running container can be synced with the permission on your host system. This is accomplished by specifying a user- and group-id to the `docker run` command.
