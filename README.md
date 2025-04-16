@@ -32,8 +32,8 @@ For convenience the entrypoint script during `docker run` provides a pretty dece
 
 | Web Server Project  | Reference Implementation |
 |:-------------------:|:------------------------:|
-| <a title="Docker Nginx" href="https://github.com/devilbox-community/docker-nginx-stable" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/05/png/banner_256_trans.png" /></a> | <a title="Devilbox" href="https://github.com/cytopia/devilbox" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a> |
-| Streamlined Webserver images | The [Devilbox](https://github.com/cytopia/devilbox) |
+| <a title="Docker Nginx" href="https://github.com/devilbox-community/docker-nginx-stable" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/05/png/banner_256_trans.png" /></a> | <a title="Devilbox" href="https://github.com/devilbox-community/devilbox" ><img height="82px" src="https://raw.githubusercontent.com/devilbox/artwork/master/submissions_banner/cytopia/01/png/banner_256_trans.png" /></a> |
+| Streamlined Webserver images | The [Devilbox](https://github.com/devilbox-community/devilbox) |
 
 **[Apache 2.2](https://github.com/devilbox-community/docker-apache-2.2) | [Apache 2.4](https://github.com/devilbox-community/docker-apache-2.2) | Nginx stable | [Nginx mainline](https://github.com/devilbox-community/docker-nginx-mainline)**
 
