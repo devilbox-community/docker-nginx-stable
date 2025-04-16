@@ -50,8 +50,8 @@ RUN set -eux \
 	&& rm -rf vhost*gen* \
 	\
 	# Install cert-gen
-	&& wget --no-check-certificate -O /usr/bin/ca-gen https://raw.githubusercontent.com/devilbox/cert-gen/${CERT_GEN_GIT_REF}/bin/ca-gen \
-	&& wget --no-check-certificate -O /usr/bin/cert-gen https://raw.githubusercontent.com/devilbox/cert-gen/${CERT_GEN_GIT_REF}/bin/cert-gen \
+	&& wget --no-check-certificate -O /usr/bin/ca-gen https://raw.githubusercontent.com/devilbox-community/cert-gen/${CERT_GEN_GIT_REF}/bin/ca-gen \
+	&& wget --no-check-certificate -O /usr/bin/cert-gen https://raw.githubusercontent.com/devilbox-community/cert-gen/${CERT_GEN_GIT_REF}/bin/cert-gen \
 	&& chmod +x /usr/bin/ca-gen \
 	&& chmod +x /usr/bin/cert-gen \
 	\
