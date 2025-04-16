@@ -221,7 +221,7 @@ The following example proxies all HTTP requests to a NodeJS remote backend. You 
    docker run -d -it \
        --name nodejs \
        -v $(pwd)/src:/app \
-       node:19-alpine node /app/app.js
+       node:20-alpine node /app/app.js
    ```
 3. Start Reverse Proxy
    ```bash
@@ -298,7 +298,7 @@ The following example proxies all HTTP requests to a Websocket remote backend. Y
        --name websocket \
        -v $(pwd)/src:/app \
 	   -w /app \
-       node:19-alpine sh start.sh
+       node:20-alpine sh start.sh
    ```
 3. Start Reverse Proxy
    ```bash

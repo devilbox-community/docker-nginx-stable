@@ -21,7 +21,7 @@ services:
 
   # NodeJS Server
   node:
-    image: node:19-alpine
+    image: node:20-alpine
     hostname: node
     command: node /app/app.js
     volumes:
