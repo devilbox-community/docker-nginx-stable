@@ -1,12 +1,16 @@
 # vi: ft=dockerfile
 FROM nginx:stable-alpine
-MAINTAINER "cytopia" <cytopia@everythingcli.org>
 
-LABEL \
-	name="cytopia's nginx stable image" \
-	image="devilboxcommunity/nginx-stable" \
-	vendor="devilbox" \
-	license="MIT"
+LABEL "maintainer"="Toan Nguyen <devilbox@nntoan.com>"
+LABEL "org.opencontainers.image.authors"="cytopia <cytopia@everythingcli.org>, Toan Nguyen <devilbox@nntoan.com>"
+LABEL "org.opencontainers.image.url"="https://github.com/devilbox-community/docker-nginx-stable"
+LABEL "org.opencontainers.image.documentation"="https://github.com/devilbox-community/docker-nginx-stable"
+LABEL "org.opencontainers.image.source"="https://github.com/devilbox-community/docker-nginx-stable"
+LABEL "org.opencontainers.image.vendor"="devilbox"
+LABEL "org.opencontainers.image.licenses"="MIT"
+LABEL "org.opencontainers.image.ref.name"="Devilbox Nginx Stable Image"
+LABEL "org.opencontainers.image.title"="Devilbox Nginx Stable Image"
+LABEL "org.opencontainers.image.description"="Devilbox Nginx Stable Image"
 
 
 ###
